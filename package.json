@@ -1,0 +1,20 @@
+{
+  "name": "favicons",
+  "description": "An attempt to capture all possible favicons for a web project.",
+  "homepage": "https://github.com/ericwbailey/favicons",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Eric Bailey",
+    "email": "eric.w.bailey@gmail.com",
+    "url": "http://ericwbailey.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ericwbailey/favicons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ericwbailey/favicons/issues",
+    "email": "eric.w.bailey@gmail.com"
+  }
+}
