@@ -96,7 +96,8 @@ Proper icon design is a lot of work. Here are some links to provide some more gu
 
 ## Attribution
 
-The demonstration [Japanese Goblin Mask](http://emojipedia.org/japanese-goblin/) logo comes from the [EmojiOne](http://emojione.com/) project.
+- The demonstration [Japanese Goblin Mask](http://emojipedia.org/japanese-goblin/) logo comes from the [EmojiOne](http://emojione.com/) project.
+- Artboard selection and sizes come from [Real Favicon Generator.net](http://realfavicongenerator.net/)
 
 ## License
 
