@@ -1,6 +1,6 @@
-# Favicons
+![favicons](https://raw.githubusercontent.com/ericwbailey/favicons/master/examples/logotype.png)
 
-This is an attempt to capture all possible favicons for a web project, allowing designers to execute pixel-perfect designs for every possible device. This includes considerations for mobile homescreen icons, social media preview images, and pinned operating system links, etc.
+This is an attempt to capture [all possible favicons](https://github.com/ericwbailey/favicons/tree/master/examples) for a web project, allowing designers to execute pixel-perfect designs for every possible device. This includes considerations for mobile homescreen icons, social media preview images, and pinned operating system links, etc.
 
 ## Table of Contents
 
@@ -50,7 +50,7 @@ Help and feedback is appreciated! Feel free to [submit a Pull Request](https://g
 
 ## Additional Resources
 
-Icon design is a lot of work. Here are some links to provide some more guidance with the process:
+Proper icon design is a lot of work. Here are some links to provide some more guidance with the process:
 
 ### Reference
 
