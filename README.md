@@ -1,6 +1,6 @@
-![favicons](https://raw.githubusercontent.com/ericwbailey/favicon/master/project-logo.png)
+![Favicon](https://raw.githubusercontent.com/ericwbailey/favicon/master/project-logo.png)
 
-This is an attempt to capture [all possible favicons](https://github.com/ericwbailey/favicons/tree/master/examples) for a web project, allowing designers to execute pixel-perfect designs for every possible device. This includes considerations for mobile homescreen icons, social media preview images, and pinned operating system links, etc.
+This is an attempt to capture [all possible favicons](https://github.com/ericwbailey/favicon/tree/master/examples) for a web project, allowing designers to execute pixel-perfect designs for every possible device. This includes considerations for mobile homescreen icons, social media preview images, and pinned operating system links, etc.
 
 ## Table of Contents
 
@@ -24,8 +24,8 @@ The web may not be pixel-perfect, but icons are. Your icon is integral to recogn
 
 Either clone or download a copy of this repo:
 
-- `git clone https://github.com/https://github.com/ericwbailey/favicons.git`
-- <https://github.com/ericwbailey/favicons/archive/master.zip>
+- `git clone https://github.com/https://github.com/ericwbailey/favicon.git`
+- <https://github.com/ericwbailey/favicon/archive/master.zip>
 
 ## Working
 
@@ -44,7 +44,7 @@ Some general tips:
 
 ## Contributing
 
-Help and feedback is appreciated! Feel free to [submit a Pull Request](https://github.com/ericwbailey/favicon/pulls) or raise an [Issue](https://github.com/ericwbailey/favicon/issues) here on the repo, or [contact me](https://github.com/ericwbailey/favicons/blob/master/AUTHORS) directly.
+Help and feedback is appreciated! Feel free to [submit a Pull Request](https://github.com/ericwbailey/favicon/pulls) or raise an [Issue](https://github.com/ericwbailey/favicon/issues) here on the repo, or [contact me](https://github.com/ericwbailey/favicon/blob/master/AUTHORS) directly.
 
 ## Additional Resources
 
@@ -107,7 +107,7 @@ I'm purposely trying to leave the pixel grids loose for this project, and leave 
 
 ### What is the circle grid on the logo and avatar artboards?
 
-Certain apps and services will crop your avatar to look like a circle. This grid helps ensures that your favicon looks good in those contexts.
+Certain apps and services will mask the corners of your avatar to make it look like a circle. This grid helps ensures that your favicon looks good in those contexts.
 
 ### What's up with the Microsoft icons?
 
@@ -127,4 +127,4 @@ According to [Real Favicon Generator.net](http://realfavicongenerator.net/), thi
 
 ## License
 
-[MIT License](https://raw.githubusercontent.com/ericwbailey/favicons/master/LICENSE).
+[MIT License](https://raw.githubusercontent.com/ericwbailey/favicon/master/LICENSE).
