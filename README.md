@@ -1,4 +1,4 @@
-![favicons](https://raw.githubusercontent.com/ericwbailey/favicons/master/examples/logotype.png)
+![favicons](https://raw.githubusercontent.com/ericwbailey/favicon/master/project-logo.png)
 
 This is an attempt to capture [all possible favicons](https://github.com/ericwbailey/favicons/tree/master/examples) for a web project, allowing designers to execute pixel-perfect designs for every possible device. This includes considerations for mobile homescreen icons, social media preview images, and pinned operating system links, etc.
 
