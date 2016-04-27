@@ -9,7 +9,7 @@ This is an attempt to capture [all possible favicons](https://github.com/ericwba
 - [Working](#working)
 - [Contributing](#contributing)
 - [Additional Resources](#additional-resources)
-- [Attribution](#attribution)
+- [FAQ](#faq)
 - [License](#license)
 
 ## Motivation
@@ -19,8 +19,6 @@ This project arose from working with the excellent [Real Favicon Generator.net](
 This is especially evident for smaller icons, where the fidelity does not scale well, or when the artboard's width does not allow for an clean, even alignment.
 
 The web may not be pixel-perfect, but icons are. Your icon is integral to recognition of your project, and the best icon your end user will see will be the one their device installs.
-
-:japanese_goblin: *Yes, I know that the demonstration icon doesn't exemplify this, I'm working on it!*
 
 ## Installation
 
@@ -40,8 +38,8 @@ Some general tips:
 - Be sure to work with pixel view and zoom to 100% after doing detail work, to get a better idea of how the final image will render.
 - The grids are sourced from the vendor's recommended grid systems. When I couldn't find a grid template, I defaulted to using the [Chrome Webstore grid](https://developer.chrome.com/webstore/images), since it's pretty flexible—anything that complies with Apple and Android's icon template system will probably work with it as well.
 - Use the empty `container` rectangle to scale an icon's size up/down consistently.
-- Mathematical center is different than optical center, don't rely too heavily on artboard alignment tools.
-- Some icons don't technically require a transparent background, feel free to add a colored background back in.
+- Mathematical center is different than optical center, use artboard alignment tools first, then nudge to get your icon into the proper position.
+- Some icons don't technically require a transparent background, feel free to add a colored background back in if your logo demands it.
 - Remember to hide the grid layer before exporting!
 
 ## Contributing
@@ -50,7 +48,7 @@ Help and feedback is appreciated! Feel free to [submit a Pull Request](https://g
 
 ## Additional Resources
 
-Proper icon design is a lot of work. Here are some links to provide some more guidance with the process:
+Proper icon design is *a lot* of work. Here are some links to provide some more guidance with the process:
 
 ### Reference
 
@@ -77,6 +75,9 @@ Proper icon design is a lot of work. Here are some links to provide some more gu
 - <https://developers.facebook.com/docs/sharing/best-practices#sharing-best-practices-for-websites>
 - <https://dev.twitter.com/cards/types/summary>
 - <https://dev.twitter.com/cards/types/summary-large-image>
+- <https://support.twitter.com/articles/127871#>
+- <https://www.facebook.com/help/125379114252045>
+- <https://developers.google.com/+/web/snippet/article-rendering>
 
 #### Optional
 
@@ -94,10 +95,35 @@ Proper icon design is a lot of work. Here are some links to provide some more gu
 - <http://vanseodesign.com/web-design/visual-balance/>
 - <http://design.tutsplus.com/articles/7-principles-of-effective-icon-design--psd-147>
 
-## Attribution
+## FAQ
 
-- The demonstration [Japanese Goblin Mask](http://emojipedia.org/japanese-goblin/) logo comes from the [EmojiOne](http://emojione.com/) project.
-- Artboard selection and sizes come from [Real Favicon Generator.net](http://realfavicongenerator.net/)
+### Why don't you use just a single vector file?
+
+I wish I could!
+
+### What about pixel grids?
+
+I'm purposely trying to leave the pixel grids loose for this project, and leave that up to the designer's discretion. I figure the the various vendor grids are a good enough starting point.
+
+### What is the circle grid on the logo and avatar artboards?
+
+Certain apps and services will crop your avatar to look like a circle. This grid helps ensures that your favicon looks good in those contexts.
+
+### What's up with the Microsoft icons?
+
+The favicon for pinned sites should have a 1 color treatment to match the Windows Metro style. Ensuring your logo can hold up at one color is also a good practice to make sure it will hold up for things like being printing on merchandise.
+
+### Why are the artboard's image sixes different size than their filenames or specifications?
+
+There are two reasons: Microsoft inexplicably recommends [using a larger image size](https://msdn.microsoft.com/library/dn455106%28v=vs.85%29.aspx) than what their filenames suggest. Social media icons are double the maximum size to ensure only high quality art is used.
+
+### Why don't you reuse the Facebook image for Twitter and Google+?
+
+Each social network requires a slightly different aspect ratio. This ensures your social images aren't improperly cropped or distorted.
+
+### I don't see the icon I'm looking for. What gives?
+
+According to [Real Favicon Generator.net](http://realfavicongenerator.net/), this is the minimum range of icons needed for the maximum amount of support. If you feel like something is missing, feel free to [contribute](#contributing).
 
 ## License
 
