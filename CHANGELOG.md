@@ -6,8 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/) and tries to f
 
 ## vNext - Unreleased
 
-- Photoshop and Illustrator templates
 - Apple startup images
+
+## [v0.3.0](https://github.com/ericwbailey/favicon/compare/v0.2.0...v0.3.0) - 2016-05-02
+- Photoshop and Illustrator templates
 
 ## [v0.2.0](https://github.com/ericwbailey/favicon/compare/v0.1.0...v0.2.0) - 2016-04-27
 
