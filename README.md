@@ -29,11 +29,29 @@ Either clone or download a copy of this repo:
 
 ## Working
 
-`favicons.sketch` contains all artboards for use with [Sketch](http://sketchapp.com/), while the `.iconsproj` files contain template for creating `.ico` files with [Icon Slate](http://www.kodlian.com/apps/icon-slate) via the exported PNGs. `favicons.sketch` is organized by pages, with a Symbols page used to quickly and consistently update background colors (if applicable).
-
 The included artboards pair with Real Favicon Generator's output, plus [some additional formats that are left off for performance reasons](http://realfavicongenerator.net/faq/#why_some_png_sizes_are_missing). Include these icons only if they are applicable to your project.
 
-Some general tips:
+### Sketch
+
+`favicons.sketch` contains all artboards for use with [Sketch](http://sketchapp.com/), organized by pages. A Symbols page used to quickly and consistently update background colors (if applicable).
+
+### Illustrator
+
+`favicons.ai` contains all artboards for use with [Illustrator CC](http://www.adobe.com/products/illustrator.html). Symbols are used to reference the different general sizes of icons you may need, although they should be tweaked on a per-artboard level.
+
+Layers prefixed with "NO EXPORT" should have their visibility toggled off before export.
+
+### Photoshop
+
+`favicons.psd` contains all artboards for use with [Photoshop CC](http://www.adobe.com/products/photoshop). Vector-based Smart Objects are used to reference the different general sizes of icons you may need, although they should be tweaked on a per-artboard level.
+
+Layers prefixed with "NO EXPORT" should have their visibility toggled off before export. You can use Photoshop's layer filtering capabilities to make this less tedious.
+
+### Icon Slate
+
+The `.iconsproj` files contain templates for creating `.ico` files with [Icon Slate](http://www.kodlian.com/apps/icon-slate) via the exported PNGs.
+
+### General tips
 
 - Be sure to work with pixel view and zoom to 100% after doing detail work to get a better idea of how the final image will render.
 - The grids are sourced from the vendor's recommended grid systems. When I couldn't find a grid template, I defaulted to using the [Chrome Webstore grid](https://developer.chrome.com/webstore/images), since it's pretty flexible—anything that complies with Apple and Android's icon template system will probably work with it as well.
@@ -86,6 +104,7 @@ Proper icon design is *a lot* of work. Here are some links to provide some more 
 
 ### Approach
 
+- <http://www.creativebloq.com/web-design/10-tips-precise-designing-sketch-41620127>
 - <http://www.creativebloq.com/illustrator/create-perfect-favicon-12112760>
 - <http://blog.mengto.com/pixel-perfection/>
 - <https://bjango.com/articles/icondesignworkflow/>
