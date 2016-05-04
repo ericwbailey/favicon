@@ -20,7 +20,7 @@ This is especially evident for smaller icons, where the fidelity does not scale 
 
 The web may not be pixel-perfect, but icons are. Your icon is integral to recognition of your project, and the best icon your end user will see will be the one their device installs.
 
-
+![Example demonstrating the difference between an automatically resized image and an optimized one](https://raw.githubusercontent.com/ericwbailey/favicon/readme-assets/example.png)
 
 ## Installation
 
