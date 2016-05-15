@@ -59,7 +59,7 @@ The `.iconsproj` files contain templates for creating `.ico` files with [Icon Sl
 
 - Be sure to work with pixel view and zoom to 100% after doing detail work to get a better idea of how the final image will render.
 - The grids are sourced from the vendor's recommended grid systems. When I couldn't find a grid template, I defaulted to using the [Chrome Webstore grid](https://developer.chrome.com/webstore/images), since it's pretty flexible—anything that complies with Apple and Android's icon template system will probably work with it as well.
-- Mathematical center is different than optical center, use artboard alignment tools first, then nudge to get your icon into the proper position.
+- [Mathematical center is different than optical center](http://javier.xyz/visual-center/). Use artboard alignment tools first, then nudge to get your icon into the proper position.
 - Some icons don't technically require a transparent background, feel free to add a colored background back in if your logo demands it.
 - Remember to hide the grid layer before exporting!
 
