@@ -104,6 +104,7 @@ Proper icon design is *a lot* of work. Here are some links to provide some more 
 
 - <https://dev.opera.com/extensions/effective-icons/>
 - <https://dev.opera.com/articles/opera-coast/#icon>
+- <https://blog.tomayac.com/2019/09/21/prefers-color-scheme-in-svg-favicons-for-dark-mode-icons/>
 
 ### Approach
 
